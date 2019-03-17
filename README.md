@@ -9,7 +9,7 @@ Skip making a build for certain push. Just add `[ci skip]` into your commit's me
 Full example:
 
 ```
-$ git commit -m 'documentation update [ci skip]'
+$ git commit -m 'documentation update [ci-skip]'
 ```
 
 It is very useful when you are working things unrelated to application's code such as README. This feature idea comes from [Travis CI](http://about.travis-ci.org/docs/user/how-to-skip-a-build/).
